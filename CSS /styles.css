@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
 main{
     text-align: center;
-    margin: 40vh 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20vh 20px;
 }
 
-main h1{
-    width: 40%
+a{
+    font-style: italic;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        margin: 10vh 20px;
+    }
 }
