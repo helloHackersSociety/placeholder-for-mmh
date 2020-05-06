@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
 
+:root {
+    --theme-color: #6F1313;
+    --alt-theme-color: #BE201F;
+    --hackathons-uk-colour: #e91e63;
+}
+
 main{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -9,6 +15,22 @@ main{
 a{
     font-style: italic;
     text-decoration: none;
+    color: var(--theme-color)
+}
+
+a:hover{
+    color: var(--alt-theme-color)
+}
+
+.hackathons-uk{
+    color: var(--hackathons-uk-colour);
+}
+.hackathons-uk:hover{
+    color: var(--hackathons-uk-colour);
+}
+
+img{
+    margin: 20px
 }
 
 .easter-egg {
@@ -22,6 +44,6 @@ a{
 
 @media screen and (max-width: 600px) {
     main{
-        margin: 10vh 20px;
+        margin: 7vh 20px;
     }
 }
