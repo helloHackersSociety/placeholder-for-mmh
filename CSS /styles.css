@@ -15,11 +15,14 @@ main{
 a{
     font-style: italic;
     text-decoration: none;
-    color: var(--theme-color)
+    color: var(--theme-color);
+    font-weight: 900;
+    transition-duration: 0.7s;
 }
 
 a:hover{
-    color: var(--alt-theme-color)
+    color: var(--alt-theme-color);
+    transition-duration: 0.7s;
 }
 
 .hackathons-uk{
